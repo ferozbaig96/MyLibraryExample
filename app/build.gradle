@@ -25,5 +25,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:design:24.0.0'
 
-    compile project(':library')
+    //todo compile project(':library')
+    compile 'com.github.ferozbaig96:MyLibraryExample:1.0'
+
 }

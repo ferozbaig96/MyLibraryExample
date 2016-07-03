@@ -1,9 +1,9 @@
 apply plugin: 'com.android.library'
 
-// Required plugin in library module
+// todo Required plugin in library module
 apply plugin: 'com.github.dcendents.android-maven'
 
-// Replace nisrulz with <your_github_username>
+// todo Replace ferozbaig96 with <your_github_username>
 group='com.github.ferozbaig96'
 
 android {
