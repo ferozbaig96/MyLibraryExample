@@ -1,11 +1,16 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+
+// Required plugin in library module
+apply plugin: 'com.github.dcendents.android-maven'
+
+// Replace nisrulz with <your_github_username>
+group='com.github.ferozbaig96'
 
 android {
     compileSdkVersion 24
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.example.fbulou.mylibraryexample"
         minSdkVersion 17
         targetSdkVersion 24
         versionCode 1
@@ -23,7 +28,4 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.0.0'
-    compile 'com.android.support:design:24.0.0'
-
-    compile project(':library')
 }

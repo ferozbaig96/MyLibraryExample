@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.fbulou.awesomelibrary.AwesomeLibrary;
+
  /*https://github.com/nisrulz/UploadToJitpack*/
 
 public class MainActivity extends AppCompatActivity {
@@ -29,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //AwesomeLibrary.getInstance().makeMeAwesome(this, "testing");
+        AwesomeLibrary.getInstance().makeMeAwesome(this, "testing");
     }
 
     @Override
